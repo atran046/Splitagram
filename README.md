@@ -8,7 +8,7 @@ Split your images for instagram posts
 ```python main.py <fileName> <number of sections>```
 
 ## Todo:
-- [] Implement more robust argparsing
-- [] Implement GUI (Tkinter)
-- [] Automatically determine number of sections to split photo into for best instagram post
-- [] Allow for vertical splitting
+- [ ] Implement more robust argparsing
+- [ ] Implement GUI (Tkinter)
+- [ ] Automatically determine number of sections to split photo into for best instagram post
+- [ ] Allow for vertical splitting
