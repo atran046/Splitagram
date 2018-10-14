@@ -18,6 +18,9 @@ def splitImage(numParts):
 def getX(section, width, numParts):
     return section * floor(width/numParts)
 
+def splitForInsta(width, height):
+    math.ceil(width/height)
+    
 #TODO: Make sure that file exists
 fileName = sys.argv[1].split('.')[0]
 
