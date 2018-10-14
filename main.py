@@ -4,7 +4,8 @@ from PIL import Image
 from math import floor
 # import re
 
-# fileName = re.match(r'.*[\.jpg]', sys.argv[1])
+# the following regex works for extracting basic filename.jpg
+# result = re.match(r'.*[^.jpg]', sys.argv[1]) 
 
 def splitImage(numParts):
     for x in range(numParts):
